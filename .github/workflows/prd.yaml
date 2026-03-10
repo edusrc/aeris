@@ -23,6 +23,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist/eris/browser
+          folder: dist/aeris/browser
           branch: prod  
           token: ${{ secrets.GIT_TOKEN }}
